@@ -1,0 +1,22 @@
+{
+  "name": "@olizilla/lol",
+  "version": "1.0.0",
+  "description": "A CLI tool to get a list of language names from a directory of locales",
+  "main": "index.js",
+  "bin": {
+    "lol": "./bin.js"
+  },
+  "dependencies": {
+    "langmap": "^0.0.16"
+  },
+  "devDependencies": {
+    "faucet": "^0.0.1",
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "node test | faucet"
+  },
+  "author": "olizilla",
+  "license": "MIT"
+}
