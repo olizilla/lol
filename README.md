@@ -10,6 +10,12 @@ Language names are pulled from [mozilla/language-mapping-list](https://github.co
 npm install -g @olizilla/lol
 ```
 
+or just use it via `npx`
+
+```console
+npx -q @olizilla/lol public/locales > src/lib/languages.json
+```
+
 ## Usage
 
 In your favorite shell, pass lol the directory where you keep your locales
