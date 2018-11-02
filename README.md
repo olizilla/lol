@@ -2,6 +2,8 @@
 
 A CLI tool to get local and english language names from a directory of locales.
 
+Language names are pulled from [mozilla/language-mapping-list](https://github.com/mozilla/language-mapping-list/blob/master/language-mapping-list.js)
+
 ## Install
 
 ```console

@@ -1,6 +1,6 @@
 {
   "name": "@olizilla/lol",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A CLI tool to get a list of language names from a directory of locales",
   "main": "index.js",
   "bin": {
@@ -18,5 +18,21 @@
     "test": "node test | faucet"
   },
   "author": "olizilla",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olizilla/lol.git"
+  },
+  "keywords": [
+    "browser",
+    "locale",
+    "iso-639",
+    "iso-3166",
+    "language",
+    "name"
+  ],
+  "bugs": {
+    "url": "https://github.com/olizilla/lol/issues"
+  },
+  "homepage": "https://github.com/olizilla/lol#readme"
 }
