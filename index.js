@@ -7,9 +7,11 @@ function getLanguageNames (locales) {
   })
 }
 
+const filesToIgnore = ['readme.md']
+
 function getLocalesFromDir (path) {
   const ls = fs.readdirSync(path)
-  return getLanguageNames(ls).filter(x => !!x).reduce((res, item) => {
+  return getLanguageNames(ls).filter(x => !!x && !filesToIgnore.includes(x.locale.toLowerCase())).reduce((res, item) => {
     res[item.locale] = item
     return res
   }, {})
