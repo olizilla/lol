@@ -15,7 +15,8 @@ tape('Get language name for locales', t => {
 
 tape('Get language name for locales per dir', t => {
   const res = getLanguageNamesOnDir(path.resolve('./test'))
-  t.deepEqual(res['en.json'], { locale: 'en.json' })
-  t.deepEqual(res['zh.json'], { locale: 'zh.json' })
+  t.deepEqual(res['en-GB'], { locale: 'en-GB', nativeName: 'English (UK)', englishName: 'English (UK)' })
+  t.deepEqual(res.zh, { locale: 'zh', nativeName: '中文', englishName: 'Chinese' })
+
   t.end()
 })
