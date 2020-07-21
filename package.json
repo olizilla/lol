@@ -1,6 +1,6 @@
 {
   "name": "@olizilla/lol",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A CLI tool to get a list of language names from a directory of locales",
   "main": "index.js",
   "bin": {
