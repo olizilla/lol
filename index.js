@@ -1,10 +1,10 @@
 const langmap = require('langmap')
 const fs = require('fs')
-const { join } = require('path')
+const { join } = require('path')
 
 function getLanguageNames (locales) {
   return locales.map(locale => {
-    return Object.assign({locale}, langmap[locale])
+    return Object.assign({ locale }, langmap[locale])
   })
 }
 
